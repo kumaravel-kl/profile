@@ -150,6 +150,10 @@ p a {
   place-items:center;
 }
 
+.footerColumn ul {
+  padding: 1% 0;
+}
+
 .footerLink{
   text-decoration: none;
   color: #fff;
