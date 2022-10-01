@@ -1,0 +1,184 @@
+
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Capriola', sans-serif;
+
+}
+
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+p a {
+  font-size: 1rem;
+}
+
+
+/* common css */
+
+.padding-5-10 {
+  padding: 5% 10%;
+}
+
+.redSection {
+  background-color: #A10035;
+  color: #fff;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+.flexVCenter {
+  display: flex;
+  align-items: center;
+}
+
+
+/* Title section */
+
+#title {
+
+  background-image: url("../images/title-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #fff;
+}
+
+.intro {
+  margin: 5% 0;
+}
+
+.intro-text {
+  padding-top: 5%;
+  line-height: 3;
+}
+
+.aboutButton {
+  margin-top: 5%;
+  height:3.125rem;
+  width:6.25rem;
+  color: #000;
+  background-color: #fff;
+}
+
+.intro-img {
+  text-align: right;
+}
+
+
+/* Work section */
+
+.companyLogo {
+  margin: 1rem;
+}
+
+
+/* Languages */
+
+.borderBar {
+  padding: 5% 0;
+}
+
+.redBar {
+  background-color: #A10035;
+  height: 1.5rem;
+}
+
+
+/* Projects */
+
+.project1 {
+  width: 75%;
+  margin: auto;
+
+}
+
+.projectImage {
+  padding: 0;
+}
+
+.pImage{
+  width:300px;
+  height: 400px;
+  background-color: #D75281;
+  border-radius: 10px;
+}
+
+.arrow{
+  display: grid;
+  place-items: center;
+}
+
+.projectImage img {
+  width: 200px;
+  height: 200px;
+  margin: 75px 50px 0 50px;
+}
+
+.projectText {
+  display: flex;
+  align-items: center;
+}
+
+
+/* Footer */
+
+#footer ul{
+  list-style: none;
+}
+
+.footerColumn {
+  display: grid;
+  place-items:center;
+}
+
+.footerColumn ul {
+  padding: 1% 0;
+}
+
+.footerLink{
+  text-decoration: none;
+  color: #fff;
+  opacity: 50%;
+}
+
+.footerLink:hover {
+  color: #fff;
+  opacity: 100%;
+}
+
+.logicBaseLogo {
+  margin-top: 1%;
+  width: 64px;
+}
+
+
+/* Mobile */
+
+@media (max-width:1300px) {
+
+  .intro-text {
+    padding-top: 0%;
+    line-height: 2;
+  }
+
+  .characterImg{
+    width: 60%;
+  }
+  .pImage{
+    margin: auto;
+  }
+}
