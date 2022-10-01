@@ -25,11 +25,32 @@ p a {
   font-size: 1rem;
 }
 
+
+/* common css */
+
+.padding-5-10 {
+  padding: 5% 10%;
+}
+
+.redSection {
+  background-color: #A10035;
+  color: #fff;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+.flexVCenter {
+  display: flex;
+  align-items: center;
+}
+
+
 /* Title section */
 
 #title {
-  /* padding: 1rem 10rem; */
-  padding: 5% 10%;
+
   background-image: url("../images/title-bg.png");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -57,21 +78,15 @@ p a {
   text-align: right;
 }
 
+
 /* Work section */
-#work {
-  text-align: center;
-}
 
 .companyLogo {
   margin: 1rem;
 }
 
-/* Languages */
 
-#languages {
-  padding: 5% 10%;
-  text-align: center;
-}
+/* Languages */
 
 .borderBar {
   padding: 5% 0;
@@ -82,17 +97,8 @@ p a {
   height: 1.5rem;
 }
 
-.languageIconColumn{
-  margin-bottom: 5%;
-}
 
 /* Projects */
-
-#projects {
-  padding: 5% 10%;
-  background-color: #A10035;
-  color: #fff;
-}
 
 .project1 {
   width: 75%;
@@ -127,22 +133,11 @@ p a {
   align-items: center;
 }
 
-#speak {
-  padding: 5% 10%;
-}
 
-#footer {
-  text-align: center;
-}
+/* Footer */
 
 #footer ul{
   list-style: none;
-}
-
-.footer-link {
-  padding: 5% 10%;
-  background-color: #A10035;
-  color: #fff;
 }
 
 .footerColumn {
@@ -169,6 +164,7 @@ p a {
   margin-top: 1%;
   width: 64px;
 }
+
 
 /* Mobile */
 
